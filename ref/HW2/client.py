@@ -3,7 +3,6 @@ import sys
 import logging
 
 
-
 def main():
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     Wait_Flag = False
@@ -51,6 +50,8 @@ def main():
 
     # Always close the socket after use
     soc.close()
+
+
 
 
 if __name__ == '__main__':
